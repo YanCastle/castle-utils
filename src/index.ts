@@ -121,6 +121,17 @@ export function get_uuid() {
     window.localStorage.setItem('UUID', UUID1)
     return UUID1;
 }
+/**
+ * 
+ * @param path 
+ */
+export function each_dir(path) {
+    if (window) {
+        throw new Error()
+    } else {
+        // var fs = require('fs')
+    }
+}
 export default {
     cache, uuid, IsBrower, array_columns, foreach, array_keys, array_key_set, array_sum, get_uuid
 }
